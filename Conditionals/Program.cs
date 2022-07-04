@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Conditionals
 {
@@ -28,11 +24,12 @@ namespace Conditionals
 
             switch(season)
             {
+                //for same situation for 2 condition:
                 case Season.Autumn:
-                    Console.WriteLine("It's Autumn");
-                    break;
                 case Season.Summer:
-                    Console.WriteLine("It's Summer");
+                    //Console.WriteLine("It's Autumn");
+                    //break;
+                    Console.WriteLine("We've got promotion.");
                     break ;
                
                 default: Console.WriteLine("I can't understand that season");
